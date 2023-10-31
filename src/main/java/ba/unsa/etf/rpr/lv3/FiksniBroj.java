@@ -1,6 +1,8 @@
 package ba.unsa.etf.rpr.lv3;
 
 public class FiksniBroj extends TelefonskiBroj {
+
+
     private Grad grad;
     private String broj;
 
@@ -11,12 +13,12 @@ public class FiksniBroj extends TelefonskiBroj {
 
     @Override
     public String Ispisi() {
-        return grad + "/" + broj;
+        return grad.getPozivni() + "/" + broj;
     }
     @Override
     public int hashCode() {
         ////???????
-        return grad.hashCode() + broj.hashCode();
+        return 0;
     }
 }
 
