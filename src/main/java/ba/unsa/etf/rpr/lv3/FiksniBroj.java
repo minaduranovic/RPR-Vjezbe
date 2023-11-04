@@ -1,5 +1,7 @@
 package ba.unsa.etf.rpr.lv3;
 
+import java.util.Objects;
+
 public class FiksniBroj extends TelefonskiBroj {
 
 
@@ -17,8 +19,7 @@ public class FiksniBroj extends TelefonskiBroj {
     }
     @Override
     public int hashCode() {
-        ////???????
-        return 0;
+        return Objects.hash(grad, broj);
     }
 }
 
