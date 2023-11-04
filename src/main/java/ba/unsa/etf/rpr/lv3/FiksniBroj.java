@@ -13,6 +13,22 @@ public class FiksniBroj extends TelefonskiBroj {
         this.broj = broj;
     }
 
+    public Grad getGrad() {
+        return grad;
+    }
+
+    public void setGrad(Grad grad) {
+        this.grad = grad;
+    }
+
+    public String getBroj() {
+        return broj;
+    }
+
+    public void setBroj(String broj) {
+        this.broj = broj;
+    }
+
     @Override
     public String Ispisi() {
         return grad.getPozivni() + "/" + broj;

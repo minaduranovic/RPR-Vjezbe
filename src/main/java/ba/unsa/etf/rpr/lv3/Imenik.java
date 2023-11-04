@@ -1,9 +1,21 @@
 package ba.unsa.etf.rpr.lv3;
 
-import java.util.HashMap;
+import java.util.*;
 
 public class Imenik {
-    private HashMap<String, TelefonskiBroj> imenik = new HashMap<String, TelefonskiBroj>();
+    private Map<String, TelefonskiBroj> imenik ;
+
+    public Imenik(){
+        this.imenik= new HashMap<String, TelefonskiBroj>();
+    }
+
+    public Map<String, TelefonskiBroj> getImenik() {
+        return imenik;
+    }
+
+    public void setImenik(Map<String, TelefonskiBroj> imenik) {
+        this.imenik = imenik;
+    }
 
     public void dodaj(String ime, TelefonskiBroj broj) {
         imenik.put(ime, broj);
@@ -37,12 +49,49 @@ public class Imenik {
         return rez.toString();
     }
 
-//    public Set<String> izGrada(Grad g) {
-//
-//    }
-//
-//    public Set<TelefonskiBroj> izGradaBrojevi(Grad g) {
-//
-//    }
+    public Set<String> izGrada(Grad g) {
+        Set<String> novi=new TreeSet<>();
+
+        for (Map.Entry<String, TelefonskiBroj> entry: this.imenik.entrySet()){
+            if (uGradu(entry.getValue(), g)){
+                novi.add(entry.getKey());
+            }
+        }
+
+        return novi;
+    }
+    private boolean uGradu(TelefonskiBroj br, Grad g){
+        if (br instanceof FiksniBroj ) {
+            return g.equals(((FiksniBroj) br).getGrad());
+        }
+        else return false;
+    }
+
+    public Set<TelefonskiBroj> izGradaBrojevi(Grad g) {
+        Set<TelefonskiBroj> novi = new TreeSet<TelefonskiBroj>(new Comparator<TelefonskiBroj>() {
+            @Override
+            public int compare(TelefonskiBroj o1, TelefonskiBroj o2) {
+                return o1.Ispisi().compareTo(o2.Ispisi());
+            }
+        });
+        for (Map.Entry<String, TelefonskiBroj> entry : this.imenik.entrySet()) {
+            if (uGradu(entry.getValue(), g)) {
+                novi.add(entry.getValue());
+            }
+        }
+        return novi;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder rez = new StringBuilder();
+        int count=1;
+
+        for (Map.Entry<String, TelefonskiBroj> entry: this.imenik.entrySet()) {
+            rez.append(count).append(". ").append(entry.getKey()).append(" - ").append(entry.getValue().Ispisi()).append(System.lineSeparator());
+    count++;
+        }
+        return rez.toString();
+    }
 }
 
