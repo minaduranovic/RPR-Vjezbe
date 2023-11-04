@@ -8,4 +8,13 @@ public enum Grad { SARAJEVO("033"), TUZLA("035"), ZENICA("032"), TRAVNIK("030"),
     public String getPozivni(){
         return pozivni;
     }
+
+    public static Grad izPozivnog(String pozivni){
+        for (Grad g: Grad.values()){
+            if (g.getPozivni().equals(pozivni)){
+                return g;
+            }
+        }
+        return null;
+    }
 }
