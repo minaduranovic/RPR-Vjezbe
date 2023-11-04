@@ -1,4 +1,4 @@
-package ba.unsa.etf.rpr.lv3;
+package ba.unsa.etf.rpr;
 
 public abstract class TelefonskiBroj {
     public abstract String Ispisi();

@@ -1,4 +1,4 @@
-package ba.unsa.etf.rpr.lv3;
+package ba.unsa.etf.rpr;
 
 import java.util.Objects;
 
