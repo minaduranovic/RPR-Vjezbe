@@ -2,6 +2,9 @@ package ba.unsa.etf.rpr;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
+//
+import org.mockito.Mockito;
 public class ImenikTest {
 
 public static Imenik imenik=new Imenik();
@@ -24,6 +27,15 @@ public static Imenik imenik=new Imenik();
         String broj=imenik.dajBroj("Sara");
         assertNull(broj);
     }
+    @Test
+    public void testMock(){
+        Imenik i=Mockito.mock(Imenik.class);
+        Mockito.when(i.dajBroj("Mina")).thenReturn("nema");
+
+        String test=i.dajBroj("Mina");
+        assertEquals(test, "nema");
+    }
+
 //    @Test
 //    public void dodajFiksniException(){
 //    assertThrows(BrojException.class)
