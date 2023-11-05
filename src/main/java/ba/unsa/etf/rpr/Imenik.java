@@ -26,7 +26,7 @@ public class Imenik {
         if (broj != null) {
             return broj.Ispisi();
         } else {
-            return "Nema te osobe u imeniku";
+            return null;
         }
     }
 
