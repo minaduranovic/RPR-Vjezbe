@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01a200d0-0bfe-4db0-9dda-5055a6991321" name="Changes" comment="mocking">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/LaptopDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/LaptopDaoJSONFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/LaptopDaoSerializableFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/LaptopDaoXMLFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/FiksniBroj.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Grad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Imenik.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/MedunarodniBroj.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/MobilniBroj.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/TelefonskiBroj.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ImenikTest.java" beforeDir="false" />
+    <list default="true" id="01a200d0-0bfe-4db0-9dda-5055a6991321" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Laptop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +88,7 @@
       <workItem from="1699108532583" duration="4827000" />
       <workItem from="1699132072107" duration="7467000" />
       <workItem from="1699206312493" duration="2635000" />
-      <workItem from="1699304128060" duration="1355000" />
+      <workItem from="1699304128060" duration="2149000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -183,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699209822542</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1699307084433</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699307084433</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +218,7 @@
     <MESSAGE value="main ispravljeno" />
     <MESSAGE value="testovi dodati" />
     <MESSAGE value="mocking" />
-    <option name="LAST_COMMIT_MESSAGE" value="mocking" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
