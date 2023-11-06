@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01a200d0-0bfe-4db0-9dda-5055a6991321" name="Changes" comment="bez maina">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Program.java" afterDir="false" />
+    <list default="true" id="01a200d0-0bfe-4db0-9dda-5055a6991321" name="Changes" comment="mocking">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/LaptopDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/LaptopDaoJSONFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/LaptopDaoSerializableFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/LaptopDaoXMLFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/lv3/FiksniBroj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/FiksniBroj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/lv3/Grad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Grad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/lv3/Imenik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Imenik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/lv3/MedunarodniBroj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/MedunarodniBroj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/lv3/MobilniBroj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/MobilniBroj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/lv3/TelefonskiBroj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/TelefonskiBroj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/FiksniBroj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Grad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Imenik.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/MedunarodniBroj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/MobilniBroj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/TelefonskiBroj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ImenikTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -29,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lv2-z3" />
+        <entry key="$PROJECT_DIR$" value="lv3-z1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,11 +58,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "lv3-z1",
+    "git-widget-placeholder": "lv4-z1",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
@@ -91,7 +98,10 @@
       <option name="presentableId" value="Default" />
       <updated>1698094577721</updated>
       <workItem from="1698094578743" duration="87000" />
-      <workItem from="1699108532583" duration="4674000" />
+      <workItem from="1699108532583" duration="4827000" />
+      <workItem from="1699132072107" duration="7467000" />
+      <workItem from="1699206312493" duration="2635000" />
+      <workItem from="1699304128060" duration="1355000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -141,7 +151,39 @@
       <option name="project" value="LOCAL" />
       <updated>1699112745954</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="main">
+      <option name="closed" value="true" />
+      <created>1699113910033</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699113910033</updated>
+    </task>
+    <task id="LOCAL-00008" summary="main ispravljeno">
+      <option name="closed" value="true" />
+      <created>1699137692163</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699137692163</updated>
+    </task>
+    <task id="LOCAL-00009" summary="testovi dodati">
+      <option name="closed" value="true" />
+      <created>1699143020354</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699143020354</updated>
+    </task>
+    <task id="LOCAL-00010" summary="mocking">
+      <option name="closed" value="true" />
+      <created>1699209822542</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699209822542</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +219,10 @@
     <MESSAGE value="fali jos" />
     <MESSAGE value="hash code" />
     <MESSAGE value="bez maina" />
-    <option name="LAST_COMMIT_MESSAGE" value="bez maina" />
+    <MESSAGE value="main" />
+    <MESSAGE value="main ispravljeno" />
+    <MESSAGE value="testovi dodati" />
+    <MESSAGE value="mocking" />
+    <option name="LAST_COMMIT_MESSAGE" value="mocking" />
   </component>
 </project>
