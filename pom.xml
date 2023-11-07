@@ -43,5 +43,14 @@
             <artifactId>mockito-core</artifactId>
             <version>3.9.0</version>
         </dependency>
+
+            <!-- Jackson XML -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.dataformat</groupId>
+                <artifactId>jackson-dataformat-xml</artifactId>
+                <version>2.13.0</version>
+            </dependency>
+
+
     </dependencies>
 </project>
