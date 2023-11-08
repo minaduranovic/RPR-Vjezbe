@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01a200d0-0bfe-4db0-9dda-5055a6991321" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Laptop.java" afterDir="false" />
+    <list default="true" id="01a200d0-0bfe-4db0-9dda-5055a6991321" name="Changes" comment="fali vratiPodatkeIzDat">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/LaptopDaoJSONFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/LaptopDaoJSONFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +53,15 @@
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ba.unsa.etf.rpr" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.lv2.Main" />
@@ -88,7 +95,8 @@
       <workItem from="1699108532583" duration="4827000" />
       <workItem from="1699132072107" duration="7467000" />
       <workItem from="1699206312493" duration="2635000" />
-      <workItem from="1699304128060" duration="2149000" />
+      <workItem from="1699304128060" duration="2307000" />
+      <workItem from="1699360430870" duration="5507000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -178,7 +186,39 @@
       <option name="project" value="LOCAL" />
       <updated>1699307084433</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="constructor">
+      <option name="closed" value="true" />
+      <created>1699310019828</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699310019828</updated>
+    </task>
+    <task id="LOCAL-00013" summary="serializable gotovo">
+      <option name="closed" value="true" />
+      <created>1699364560259</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699364560259</updated>
+    </task>
+    <task id="LOCAL-00014" summary="xml gotovo">
+      <option name="closed" value="true" />
+      <created>1699365329779</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699365329779</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fali vratiPodatkeIzDat">
+      <option name="closed" value="true" />
+      <created>1699365561241</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699365561241</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +259,10 @@
     <MESSAGE value="testovi dodati" />
     <MESSAGE value="mocking" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="constructor" />
+    <MESSAGE value="serializable gotovo" />
+    <MESSAGE value="xml gotovo" />
+    <MESSAGE value="fali vratiPodatkeIzDat" />
+    <option name="LAST_COMMIT_MESSAGE" value="fali vratiPodatkeIzDat" />
   </component>
 </project>

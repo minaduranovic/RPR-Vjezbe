@@ -50,6 +50,14 @@ public class LaptopDaoJSONFile implements LaptopDao {
 
     @Override
     public ArrayList<Laptop> vratiPodatkeIzDatoteke() {
-        return null;
+        if (file.exists()) {
+            try {
+                ObjectMapper objectMapper = new ObjectMapper();
+                return objectMapper.readValue(file, objectMapper.getTypeFactory().constructCollectionType(ArrayList.class, Laptop.class));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return new ArrayList<>();
     }
 }
