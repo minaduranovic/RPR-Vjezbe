@@ -1,8 +1,9 @@
 package ba.unsa.etf.rpr;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Laptop {
+public class Laptop implements Serializable {
     private String brand;
     private  String model;
     private double cijena;

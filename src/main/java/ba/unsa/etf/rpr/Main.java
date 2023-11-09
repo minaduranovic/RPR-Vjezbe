@@ -14,9 +14,10 @@ public class Main {
                 jsonFileDao.dodajLaptopUListu(new Laptop("HP", "Pavilion", 800.0, 8, 1000, 256, "AMD Ryzen 5", "NVIDIA GTX 1650", 15.6));
                 xmlFileDao.dodajLaptopUListu(new Laptop("Apple", "MacBook Pro", 2000.0, 32, 512, 0, "Apple M1", "Apple M1", 13.3));
 
-                serializableFileDao.dodajLaptopUFile(new Laptop("Dell", "XPS 13", 1500.0, 16, 512, 0, "Intel i7", "Integrated", 13.3));
-                jsonFileDao.dodajLaptopUFile(new Laptop("HP", "Pavilion", 800.0, 8, 1000, 256, "AMD Ryzen 5", "NVIDIA GTX 1650", 15.6));
-                xmlFileDao.dodajLaptopUFile(new Laptop("Apple", "MacBook Pro", 2000.0, 32, 512, 0, "Apple M1", "Apple M1", 13.3));
+//                serializableFileDao.dodajLaptopUFile(new Laptop("Dell", "XPS 13", 1500.0, 16, 512, 0, "Intel i7", "Integrated", 13.3));
+//                jsonFileDao.dodajLaptopUFile(new Laptop("HP", "Pavilion", 800.0, 8, 1000, 256, "AMD Ryzen 5", "NVIDIA GTX 1650", 15.6));
+//                xmlFileDao.dodajLaptopUFile(new Laptop("Apple", "MacBook Pro", 2000.0, 32, 512, 0, "Apple M1", "Apple M1", 13.3));
+
 
                 try {
                     Laptop laptop1 = serializableFileDao.getLaptop("Intel i7");
@@ -31,9 +32,9 @@ public class Main {
                     System.out.println(e.getMessage());
                 }
 
-                serializableFileDao.napuniListu(serializableFileDao.vratiPodatkeIzDatoteke());
-                jsonFileDao.napuniListu(jsonFileDao.vratiPodatkeIzDatoteke());
-                xmlFileDao.napuniListu(xmlFileDao.vratiPodatkeIzDatoteke());
+//                serializableFileDao.napuniListu(serializableFileDao.vratiPodatkeIzDatoteke());
+//                jsonFileDao.napuniListu(jsonFileDao.vratiPodatkeIzDatoteke());
+//                xmlFileDao.napuniListu(xmlFileDao.vratiPodatkeIzDatoteke());
             }
 
 
