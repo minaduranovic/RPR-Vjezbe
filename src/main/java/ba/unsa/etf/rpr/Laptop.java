@@ -1,5 +1,7 @@
 package ba.unsa.etf.rpr;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.io.Serializable;
 import java.util.Objects;
 
@@ -14,7 +16,17 @@ public class Laptop implements Serializable {
     private String grafickaKartica;
     private double velicinaEkrana;
 
-    public Laptop(String brand, String model, double cijena, int ram, int hdd, int ssd, String procesor, String grafickaKartica, double velicinaEkrana) {
+    public Laptop(
+            @JsonProperty("brand") String brand,
+            @JsonProperty("model") String model,
+            @JsonProperty("cijena") double cijena,
+            @JsonProperty("ram") int ram,
+            @JsonProperty("hdd") int hdd,
+            @JsonProperty("ssd") int ssd,
+            @JsonProperty("procesor") String procesor,
+            @JsonProperty("grafickaKartica") String grafickaKartica,
+            @JsonProperty("velicinaEkrana") double velicinaEkrana
+    ) {
         this.brand = brand;
         this.model = model;
         this.cijena = cijena;
@@ -25,6 +37,18 @@ public class Laptop implements Serializable {
         this.grafickaKartica = grafickaKartica;
         this.velicinaEkrana = velicinaEkrana;
     }
+//    public Laptop(String brand, String model, double cijena, int ram, int hdd, int ssd, String procesor, String grafickaKartica, double velicinaEkrana) {
+//        this.brand = brand;
+//        this.model = model;
+//        this.cijena = cijena;
+//        this.ram = ram;
+//        this.hdd = hdd;
+//        this.ssd = ssd;
+//        this.procesor = procesor;
+//        this.grafickaKartica = grafickaKartica;
+//        this.velicinaEkrana = velicinaEkrana;
+//    }
+
 
     public String getBrand() {
         return brand;
