@@ -18,7 +18,7 @@ public class LaptopDaoSerializableFile  implements Serializable, LaptopDao {
     @Override
     public void dodajLaptopUFile(Laptop laptop) {
 
-        ArrayList<Laptop> postojeci = vratiPodatkeIzDatoteke();
+        ArrayList<Laptop> postojeci = vratiPodatkeIzDatoteke();   ////////
 
         try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(file))) {
             postojeci.add(laptop);
@@ -56,4 +56,8 @@ public class LaptopDaoSerializableFile  implements Serializable, LaptopDao {
         }
         return new ArrayList<>();
     }
+    @Override
+   public String toString(){
+        return laptopi.toString();
+   }
 }
