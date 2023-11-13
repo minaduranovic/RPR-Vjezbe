@@ -1,5 +1,6 @@
 package ba.unsa.etf.rpr;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
@@ -14,6 +15,7 @@ public class LaptopDaoJSONFile implements LaptopDao {
         this.file = file;
         this.laptopi = new ArrayList<>();
     }
+
     @Override
     public void dodajLaptopUListu(Laptop laptop) {
         laptopi.add(laptop);
@@ -53,7 +55,7 @@ public class LaptopDaoJSONFile implements LaptopDao {
         if (file.exists()) {
             try {
                 ObjectMapper objectMapper = new ObjectMapper();
-                return objectMapper.readValue(file, objectMapper.getTypeFactory().constructCollectionType(ArrayList.class, Laptop.class));
+                return objectMapper.readValue(file, new TypeReference<ArrayList<Laptop>>() {});
             } catch (IOException e) {
                 e.printStackTrace();
             }
