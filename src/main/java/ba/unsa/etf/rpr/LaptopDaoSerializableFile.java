@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class LaptopDaoSerializableFile  implements Serializable, LaptopDao {
    private  File file;
-   private ArrayList<Laptop> laptopi;
+   ArrayList<Laptop> laptopi;
 
     public LaptopDaoSerializableFile(File file) {
         this.file = file;
