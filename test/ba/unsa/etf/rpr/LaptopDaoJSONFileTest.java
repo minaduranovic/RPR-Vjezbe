@@ -32,6 +32,7 @@ class LaptopDaoJSONFileTest {
         assertEquals(1, laptopDao.laptopi.size());
         assertEquals(laptop, laptopDao.laptopi.get(0));
     }
+//// nisu dobre metode dodajLapotopUFile i vratiPodatkeIzDatoteke
 
     @Test
     void dodajLaptopUFile() {

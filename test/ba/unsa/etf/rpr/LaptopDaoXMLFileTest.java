@@ -42,7 +42,7 @@ class LaptopDaoXMLFileTest {
         assertEquals(1, laptopDao.laptopi.size());
         assertEquals(laptop, laptopDao.laptopi.get(0));
     }
-
+    //// nisu dobre metode dodajLapotopUFile i vratiPodatkeIzDatoteke
     @Test
     void dodajLaptopUFile() throws IOException, NoSuchFieldException, IllegalAccessException {
         Laptop laptop = new Laptop("Brand", "Model", 1000.0, 8, 512, 256, "Procesor", "Graficka", 15.6);
