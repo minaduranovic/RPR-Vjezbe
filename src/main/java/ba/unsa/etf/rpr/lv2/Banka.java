@@ -6,14 +6,14 @@ public class Banka {
     private Long brRacuna;
     private List<Korisnik> korisnici;
     private List<Uposlenik> uposlenici;
-    Banka(){brRacuna=null;}
-    Korisnik kreirajNovogKorisnika(String i, String p){
+    public Banka(){brRacuna=null;}
+    public Korisnik kreirajNovogKorisnika(String i, String p){
         return new Korisnik(i,p);
     }
-    Uposlenik kreirajNovogUposlenika(String i, String p){
+    public Uposlenik kreirajNovogUposlenika(String i, String p){
         return new Uposlenik(i,p);
     }
-    Racun kreirajRacunZaKorisnika(Korisnik k){
+    public Racun kreirajRacunZaKorisnika(Korisnik k){
         return new Racun(brRacuna, k);
     }
 }
