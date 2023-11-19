@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7a0993-cc12-4777-bd48-43f4dbd4ca7e" name="Changes" comment="zad1 i zad2 ok?" />
+    <list default="true" id="1c7a0993-cc12-4777-bd48-43f4dbd4ca7e" name="Changes" comment="zad1 i zad2 gotovi (fali main)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/KolekcijaImena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/KolekcijaImenaIPrezimena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Pobjednik.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +66,7 @@
       <updated>1699967927185</updated>
       <workItem from="1699967928256" duration="681000" />
       <workItem from="1699969151108" duration="1314000" />
+      <workItem from="1700410307606" duration="4840000" />
     </task>
     <task id="LOCAL-00001" summary="i">
       <option name="closed" value="true" />
@@ -87,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699970257465</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="zad1 i zad2 gotovi (fali main)">
+      <option name="closed" value="true" />
+      <created>1700413146876</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700413146876</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i" />
     <MESSAGE value="zad1 i zad2 ok?" />
-    <option name="LAST_COMMIT_MESSAGE" value="zad1 i zad2 ok?" />
+    <MESSAGE value="zad1 i zad2 gotovi (fali main)" />
+    <option name="LAST_COMMIT_MESSAGE" value="zad1 i zad2 gotovi (fali main)" />
   </component>
 </project>
