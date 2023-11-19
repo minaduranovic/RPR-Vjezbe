@@ -6,19 +6,19 @@ public class Racun
     private Osoba korisnikRacuna;
     private Boolean odobrenjePrekoracenja;
     private Double stanjeRacuna;
-    Racun(Long br, Osoba o){ brojRacuna=br; korisnikRacuna=o; }
+    public Racun(Long br, Osoba o){ brojRacuna=br; korisnikRacuna=o; }
     private Boolean provjeriOdobrenjePrekoracenja( Double pr){
         return true;
     }
-    Boolean izvrsiUplatu(Double uplata){
+    public Boolean izvrsiUplatu(Double uplata){
         stanjeRacuna+=uplata;
         return true;
     }
-    Boolean izvrsiIsplatu (Double isplata){
+    public Boolean izvrsiIsplatu (Double isplata){
         stanjeRacuna-=isplata;
         return true;
     }
-    void odobriPrekoracenje(Double d){
+   public void odobriPrekoracenje(Double d){
         if (d<0) odobrenjePrekoracenja=true;
     }
 
