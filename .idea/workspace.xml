@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7a0993-cc12-4777-bd48-43f4dbd4ca7e" name="Changes" comment="i">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/InformacijeONastavniku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/InformacijeONastavnikuOcjena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/InformacijeONastavnikuPredstava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/InformacijeOStudentu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/InformacijeOStudentuPredstava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/KolekcijaPoruka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/LicneInformacije.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/LicneInformacijePredstava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/MozeOcijeniti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Ocjena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Predmet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/PredmetOcjena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/PredmetPredstava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Predstavljiv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="1c7a0993-cc12-4777-bd48-43f4dbd4ca7e" name="Changes" comment="zad1 i zad2 ok?" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699967927185</updated>
       <workItem from="1699967928256" duration="681000" />
-      <workItem from="1699969151108" duration="1063000" />
+      <workItem from="1699969151108" duration="1314000" />
     </task>
     <task id="LOCAL-00001" summary="i">
       <option name="closed" value="true" />
@@ -97,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699968502377</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="zad1 i zad2 ok?">
+      <option name="closed" value="true" />
+      <created>1699970257465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699970257465</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i" />
-    <option name="LAST_COMMIT_MESSAGE" value="i" />
+    <MESSAGE value="zad1 i zad2 ok?" />
+    <option name="LAST_COMMIT_MESSAGE" value="zad1 i zad2 ok?" />
   </component>
 </project>

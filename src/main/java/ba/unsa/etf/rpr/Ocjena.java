@@ -9,16 +9,11 @@ public class Ocjena {
         setOcjena(ocjena);
     }
 
-    // Get i set metode za osobu
-    public LicneInformacije getOsoba() {
-        return osoba;
-    }
 
     public void setOsoba(LicneInformacije osoba) {
         this.osoba = osoba;
     }
 
-    // Get i set metode za ocjenu
     public int getOcjena() {
         return ocjena;
     }

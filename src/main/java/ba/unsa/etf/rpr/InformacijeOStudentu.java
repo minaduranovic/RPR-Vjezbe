@@ -10,7 +10,6 @@ public class InformacijeOStudentu extends LicneInformacije {
         this.brojIndexa = brojIndexa;
     }
 
-    // Get i set metode za godinaStudija
     public String getGodinaStudija() {
         return godinaStudija;
     }
@@ -19,12 +18,16 @@ public class InformacijeOStudentu extends LicneInformacije {
         this.godinaStudija = godinaStudija;
     }
 
-    // Get i set metode za brojIndexa
     public String getBrojIndexa() {
         return brojIndexa;
     }
 
     public void setBrojIndexa(String brojIndexa) {
         this.brojIndexa = brojIndexa;
+    }
+
+    @Override
+    public String predstavi() {
+        return super.predstavi() + ", Godina studija: " + godinaStudija + ", Broj indexa: " + brojIndexa;
     }
 }

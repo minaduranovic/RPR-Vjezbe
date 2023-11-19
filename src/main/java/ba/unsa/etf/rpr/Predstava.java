@@ -1,5 +1,5 @@
 package ba.unsa.etf.rpr;
 
-public interface Predstavljiv {
+public interface Predstava {
     String predstavi();
 }

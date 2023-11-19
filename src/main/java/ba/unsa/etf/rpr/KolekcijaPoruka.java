@@ -1,18 +1,19 @@
 package ba.unsa.etf.rpr;
 
-public class KolekcijaPoruka {
-    private String[] poruke;
+import java.util.ArrayList;
+import java.util.List;
 
-    public KolekcijaPoruka(Object[] objekti) {
-        this.poruke = new String[objekti.length];
-        for (int i = 0; i < objekti.length; i++) {
-            this.poruke[i] = ((Predstavljiv) objekti[i]).predstavi();
+
+class KolekcijaPoruka {
+    private List<String> poruke=new ArrayList<>();
+
+    public KolekcijaPoruka(ArrayList<Predstava> objekti) {
+        for (Predstava klasa : objekti) {
+            poruke.add(klasa.predstavi());
         }
     }
 
-    // Get metoda za poruke
-    public String[] getPoruke() {
+    public List<String> getPoruke() {
         return poruke;
     }
 }
-
