@@ -9,16 +9,15 @@ CREATE TABLE IF NOT EXISTS "Grad" (
 CREATE TABLE IF NOT EXISTS "Drzava" (
 	"Drzava_id"	INTEGER,
 	"Naziv"	TEXT,
-	"Glavni_grad"	TEXT,
+	"Glavni_grad"	INTEGER,
 	PRIMARY KEY("Drzava_id")
 );
-INSERT INTO "Grad" VALUES (1,'Pariz',250000,1);
-INSERT INTO "Grad" VALUES (2,'London',800000,2);
-INSERT INTO "Grad" VALUES (3,'Bec',2000000,3);
-INSERT INTO "Grad" VALUES (4,'Manchester',1000000,2);
-INSERT INTO "Grad" VALUES (5,'Graz',500000,3);
-INSERT INTO "Drzava" VALUES (0,'','');
-INSERT INTO "Drzava" VALUES (1,'Francuska','Pariz');
+INSERT INTO "Grad" VALUES (1,'Pariz',2200000,1);
+INSERT INTO "Grad" VALUES (2,'London',8300000,2);
+INSERT INTO "Grad" VALUES (3,'Bec',1800000,3);
+INSERT INTO "Grad" VALUES (4,'Mancester',570000,2);
+INSERT INTO "Grad" VALUES (5,'Graz',250000,3);
+INSERT INTO "Drzava" VALUES (1,'Fracuska','Pariz');
 INSERT INTO "Drzava" VALUES (2,'Velika Britanija','London');
 INSERT INTO "Drzava" VALUES (3,'Austrija','Bec');
 COMMIT;
