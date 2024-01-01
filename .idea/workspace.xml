@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7a0993-cc12-4777-bd48-43f4dbd4ca7e" name="Changes" comment="arrayList">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="1c7a0993-cc12-4777-bd48-43f4dbd4ca7e" name="Changes" comment="null exc">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradovi.db" beforeDir="false" afterPath="$PROJECT_DIR$/baza.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradovi.db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/baza.db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baza.db" beforeDir="false" afterPath="$PROJECT_DIR$/baza.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baza.db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/baza.db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GeografijaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GeografijaDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Main.java" afterDir="false" />
     </list>
@@ -45,33 +44,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "lv9-z1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2045977",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lv9-z1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2045977&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -98,7 +102,10 @@
       <workItem from="1700410307606" duration="4840000" />
       <workItem from="1702977637266" duration="1697000" />
       <workItem from="1702979349050" duration="7461000" />
-      <workItem from="1703518532570" duration="14576000" />
+      <workItem from="1703518532570" duration="15206000" />
+      <workItem from="1703578351816" duration="7016000" />
+      <workItem from="1703586908173" duration="3131000" />
+      <workItem from="1704122184402" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="i">
       <option name="closed" value="true" />
@@ -148,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703527189966</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="null exc">
+      <option name="closed" value="true" />
+      <created>1703542156822</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703542156823</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +187,8 @@
     <MESSAGE value="zad1 i zad2 gotovi (fali main)" />
     <MESSAGE value="z1" />
     <MESSAGE value="arrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrayList" />
+    <MESSAGE value="null exc" />
+    <option name="LAST_COMMIT_MESSAGE" value="null exc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -185,11 +201,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="4" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Main.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

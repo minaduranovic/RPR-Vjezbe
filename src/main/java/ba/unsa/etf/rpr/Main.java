@@ -13,6 +13,7 @@ public class Main {
             rez+= grad.getIme()+ " ("+ grad.getDrzava().getNaziv()+ ") - " + grad.getBrojStanovnika()+ "\n";
 
         }
+
         return rez;
     }
 
@@ -23,11 +24,13 @@ public class Main {
         String naziv= sc.nextLine();
         Grad grad=dao.glavniGrad(naziv);
         if (grad==null )System.out.println("Nepostojeca drzava");
-        else  System.out.println("Glavni grad drzave" + naziv+ " je " +grad.getIme());
+        else  System.out.println("Glavni grad drzave " + naziv+ " je " +grad.getIme());
+
+
 
      }
     public static void main(String[] args) {
-        System.out.println("Gradovi su:\n" + ispisiGradove());
-//        glavniGrad();
+        System.out.println(ispisiGradove());
+        glavniGrad();
 }
 }
